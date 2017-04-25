@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=e68225338e85b637c4ac8520c617f735"
 COMPATIBLE_MACHINE ="((h|m)3ulcb|salvator-x)"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
-DAEMONARGS_r8a7795 = "-b 1 -b 2 -b 3 -b 4"
+DAEMONARGS_r8a7795 = "-b 0 -b 1 -b 2 -b 3"
 DAEMONARGS_r8a7796 = "-b 0 -b 1"
 
 RDEPENDS_${PN} += " blsched"
