@@ -25,7 +25,7 @@ do_copy_license () {
 	cp ${WORKDIR}/COPYING ${S}
 }
 
-addtask copy_license after do_unpack before do_populate_lic
+addtask copy_license after do_unpack before do_configure
 
 do_install_append () {
 	# Install the systemd init file
